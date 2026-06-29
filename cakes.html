@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebration Cakes | Mason's Apron, Virginia, Co. Cavan</title>
+  <meta name="description" content="Celebration and birthday cakes baked to order at Mason's Apron, Virginia. Sponge cakes, flavoured cakes, Black Forest and drip cakes in a range of sizes. Order with a few days' notice.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.themasonsapron.ie/cakes.html">
+
+  <meta property="og:title" content="Celebration Cakes | Mason's Apron">
+  <meta property="og:description" content="Sponge, flavoured, Black Forest and drip cakes baked to order in Virginia, Co. Cavan.">
+  <meta property="og:url" content="https://www.themasonsapron.ie/cakes.html">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://www.themasonsapron.ie/images/pastries.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Celebration Cakes | Mason's Apron">
+  <meta name="twitter:description" content="Cakes baked to order in Virginia, Co. Cavan.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+
+  <style>
+    /* Cake price tables — scoped, built from existing brand tokens */
+    .cake-table-wrap { overflow-x: auto; margin-top: 10px; }
+    .cake-table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--cream);
+      border: 1px solid var(--line);
+      border-radius: var(--r-md);
+      overflow: hidden;
+      font-family: 'Manrope', sans-serif;
+    }
+    .cake-table th, .cake-table td {
+      padding: 15px 20px;
+      text-align: left;
+      border-bottom: 1px solid var(--line);
+    }
+    .cake-table thead th {
+      background: var(--cream-2);
+      font-weight: 700;
+      color: var(--ink);
+      font-size: 0.95rem;
+    }
+    .cake-table td.size {
+      font-weight: 600;
+      color: var(--ink);
+    }
+    .cake-table td.price {
+      font-weight: 700;
+      color: var(--rust);
+      white-space: nowrap;
+    }
+    .cake-table th.price { text-align: right; }
+    .cake-table td.price { text-align: right; }
+    .cake-table tbody tr:last-child td { border-bottom: none; }
+    .cake-table tbody tr:hover { background: var(--cream-2); }
+    .flavour-chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 6px 0 26px; }
+    .flavour-chip {
+      background: var(--cream-2);
+      border: 1px solid var(--line);
+      color: var(--ink);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: 600;
+      font-size: 0.92rem;
+    }
+    .cake-note {
+      font-family: 'Manrope', sans-serif;
+      color: var(--ink-soft);
+      font-size: 0.95rem;
+      margin-top: 16px;
+    }
+    .cake-subhead {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 700;
+      color: var(--rust);
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      font-size: 0.8rem;
+      margin-bottom: 10px;
+    }
+    @media (max-width: 600px) {
+      .cake-table th, .cake-table td { padding: 12px 14px; font-size: 0.9rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="/" class="logo">
+        <span class="logo-mark">M</span>
+        Mason's Apron
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="/">Home</a></li>
+        <li><a href="/menu.html">Menu</a></li>
+        <li><a href="/cakes.html" class="active">Cakes</a></li>
+        <li><a href="/catering.html">Catering</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+        <li><a href="tel:+353498547888" class="btn btn-primary nav-cta">Call 049 854 7888</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-inner" data-reveal>
+        <span class="eyebrow">Celebration Cakes</span>
+        <h1>Cakes for the <span class="italic">big occasions.</span></h1>
+        <p class="lead">Birthdays, christenings, communions or just because. Every cake is baked to order in our own kitchen. Give us a few days' notice and tell us what you have in mind.</p>
+        <p class="page-note">All prices in euro. Cakes are made to order, so please order ahead. To book, ring us or send a message.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== NAV PILLS ===== -->
+  <section class="menu-nav">
+    <div class="container">
+      <div class="pill-row" data-reveal>
+        <a href="#sponges" class="pill">Sponge Cakes</a>
+        <a href="#flavoured" class="pill">Flavoured Cakes</a>
+        <a href="#blackforest" class="pill">Black Forest</a>
+        <a href="#drip" class="pill">Drip Cakes</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SPONGE CAKES ===== -->
+  <section class="menu-section" id="sponges">
+    <div class="container">
+      <div class="menu-section-head" data-reveal>
+        <img class="menu-photo" src="/images/pastries.jpg" alt="Freshly baked cakes at Mason's Apron" loading="lazy">
+        <h2>Sponge Cakes</h2>
+        <p>Light, fresh sponge with a filling of your choice. Pick your size, then jam &amp; cream or fresh fruit &amp; ganache.</p>
+      </div>
+
+      <div class="menu-list" data-reveal>
+        <div class="cake-table-wrap">
+          <table class="cake-table">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th class="price">Jam &amp; Cream</th>
+                <th class="price">Fresh Fruit &amp; Ganache</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="size">8" Round</td><td class="price">€25</td><td class="price">€30</td></tr>
+              <tr><td class="size">8" Square</td><td class="price">€35</td><td class="price">€40</td></tr>
+              <tr><td class="size">10" Square</td><td class="price">€45</td><td class="price">€50</td></tr>
+              <tr><td class="size">12" Square</td><td class="price">€65</td><td class="price">€75</td></tr>
+              <tr><td class="size">14" Square</td><td class="price">€95</td><td class="price">€100</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="cake-note">Add an edible image (photo, logo or message printed on top) for €5.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FLAVOURED CAKES ===== -->
+  <section class="menu-section alt" id="flavoured">
+    <div class="container">
+      <div class="menu-section-head" data-reveal>
+        <h2>Flavoured Cakes</h2>
+        <p>Our richer, fully flavoured cakes. Choose your flavour, then your size.</p>
+      </div>
+
+      <div class="menu-list" data-reveal>
+        <div class="cake-subhead">Choose a flavour</div>
+        <div class="flavour-chips">
+          <span class="flavour-chip">Chocolate Fudge</span>
+          <span class="flavour-chip">Red Velvet</span>
+          <span class="flavour-chip">Carrot</span>
+          <span class="flavour-chip">Lemon</span>
+          <span class="flavour-chip">Coffee</span>
+        </div>
+
+        <div class="cake-subhead">Choose a size</div>
+        <div class="cake-table-wrap">
+          <table class="cake-table">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th class="price">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="size">8" Round</td><td class="price">€40</td></tr>
+              <tr><td class="size">8" Square</td><td class="price">€50</td></tr>
+              <tr><td class="size">10" Square</td><td class="price">€65</td></tr>
+              <tr><td class="size">12" Square</td><td class="price">€85</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BLACK FOREST ===== -->
+  <section class="menu-section" id="blackforest">
+    <div class="container">
+      <div class="menu-section-head" data-reveal>
+        <h2>Black Forest</h2>
+        <p>A classic done properly. Chocolate sponge, cream and cherries, priced on its own.</p>
+      </div>
+
+      <div class="menu-list" data-reveal>
+        <div class="cake-table-wrap">
+          <table class="cake-table">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th class="price">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="size">8" Round</td><td class="price">€35</td></tr>
+              <tr><td class="size">8" Square</td><td class="price">€45</td></tr>
+              <tr><td class="size">10" Square</td><td class="price">€55</td></tr>
+              <tr><td class="size">12" Square</td><td class="price">€70</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DRIP CAKES ===== -->
+  <section class="menu-section alt" id="drip">
+    <div class="container">
+      <div class="menu-section-head" data-reveal>
+        <h2>Drip Cakes</h2>
+        <p>A showstopper for the big day, finished with a glossy drip and decoration.</p>
+      </div>
+
+      <div class="menu-list" data-reveal>
+        <div class="cake-table-wrap">
+          <table class="cake-table">
+            <thead>
+              <tr>
+                <th>Size</th>
+                <th class="price">Price</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td class="size">6" Drip</td><td class="price">€70</td></tr>
+              <tr><td class="size">7" Drip</td><td class="price">€90</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ORDER CTA ===== -->
+  <section class="callout">
+    <div class="container">
+      <div class="callout-inner" data-reveal>
+        <div>
+          <h3>Ready to order a cake?</h3>
+          <p>Tell us the occasion, the date, the flavour and any message for the top. A few days' notice is ideal. We'll sort the rest.</p>
+        </div>
+        <a href="tel:+353498547888" class="btn btn-primary">Call 049 854 7888</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-placeholder"></div>
+  <div id="widgets-placeholder"></div>
+
+  <script src="/script.js"></script>
+</body>
+</html>

@@ -28,6 +28,7 @@ const footerHTML = `
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="/menu.html">Menu</a></li>
+          <li><a href="/cakes.html">Cakes</a></li>
           <li><a href="/catering.html">Catering</a></li>
           <li><a href="/about.html">About</a></li>
           <li><a href="/contact.html">Contact</a></li>
