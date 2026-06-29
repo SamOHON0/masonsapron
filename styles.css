@@ -156,6 +156,7 @@ img { max-width: 100%; display: block; }
 }
 .nav-links a.btn.active::after { display: none; }
 .nav-cta { margin-left: 8px; }
+.btn-primary.nav-cta, .btn-primary.nav-cta:hover { color: #ffffff; }
 
 .hamburger {
   display: none;
